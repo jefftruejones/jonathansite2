@@ -1,0 +1,11 @@
+.footer {
+  background-color: #edc7b7;
+  color: #123c69;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.5em;
+}
+.a:hover {
+  background-color: white;
+  color: black;
+}

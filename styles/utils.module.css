@@ -1,0 +1,34 @@
+.panelrow {
+  display: flex;
+  justify-content: space-between;
+}
+.unitrow {
+  flex: 1;
+  margin: 1em;
+  border-radius: 2%;
+}
+.unit {
+  flex: 1;
+  margin: 1em;
+}
+.panelcolumn {
+  display: flex;
+  flex-direction: column;
+}
+.unitcolumn {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+@media all and (max-width: 900px) {
+  .panelrow {
+    flex-direction: column;
+  }
+  .unitrow {
+    border-radius: 0;
+  }
+}
+.center {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,39 @@
+.img {
+  max-width: 90%;
+  margin-top: 1.25em;
+  max-height: 75%;
+}
+.panel {
+  display: flex;
+  justify-content: space-between;
+}
+.p {
+  line-height: 2;
+  margin-bottom: 1em;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  min-height: 5em;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media all and (max-width: 900px) {
+  .img {
+    max-width: 80%;
+  }
+  .panel {
+    flex-direction: column;
+  }
+}
+@media all and (min-width: 1600px) {
+  .panel {
+    flex-direction: column;
+  }
+  .img {
+    max-height: 40%;
+    max-width: 60%;
+  }
+}

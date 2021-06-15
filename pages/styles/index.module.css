@@ -1,0 +1,168 @@
+.img {
+  max-width: 350px;
+}
+.h2 {
+  text-align: center;
+}
+.h3 {
+  text-align: center;
+  color: #ac3b61;
+}
+.li {
+  margin: 1em;
+}
+.ul {
+  list-style: disc;
+}
+.letter {
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+.welcome {
+  padding: 1em;
+
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.border {
+  border-bottom: 0.015rem solid #123c69;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.request {
+  background-color: #ac3b61;
+  color: white;
+  text-align: center;
+
+  /* padding: 1em;
+  margin: 1em; */
+}
+
+.centerText {
+  text-align: center;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+.centertext {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.center {
+  margin: auto;
+  max-width: 500px;
+}
+.request {
+  margin-top: 1em;
+  background-color: #ac3b61;
+  color: white;
+  padding: 0.5em;
+  padding-left: 0.8em;
+  max-width: 12em;
+  align-self: center;
+}
+.request:hover {
+  background-color: #123c69;
+  color: white;
+}
+.email:hover {
+  background-color: #123c69;
+  color: white;
+}
+
+.request:hover {
+  background-color: #123c69;
+  color: white;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  min-height: 10em;
+  font-size: 1rem;
+  line-height: 2;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  min-height: 10em;
+  font-size: 1rem;
+  line-height: 2;
+  padding-top: 1.5em;
+}
+.covid {
+  font-size: 1rem;
+  line-height: 2;
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.list {
+  display: none;
+}
+
+.list2 {
+  display: flex;
+}
+
+@media all and (max-width: 900px) {
+  .mission {
+    margin-top: 0;
+  }
+  .ul {
+    display: none;
+  }
+  .list {
+    display: flex;
+  }
+  .card {
+    font-size: 1.25rem;
+    line-height: 2;
+  }
+  .card2 {
+    font-size: 1.25rem;
+    line-height: 2;
+  }
+  .border {
+    border: 0;
+  }
+  .welcome {
+    border-bottom: 0.015rem solid #123c69;
+    margin-top: 0;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+  .welcome2 {
+    margin-top: 0;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+}
+@media all and (max-width: 450px) {
+  .welcome {
+    border-bottom: 0.015rem solid #123c69;
+    margin-top: 0;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
+  .welcome2 {
+    margin-top: 0;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
+  .card {
+    font-size: 0.75rem;
+    line-height: 2;
+  }
+  .card2 {
+    font-size: 0.75rem;
+    line-height: 2;
+  }
+}

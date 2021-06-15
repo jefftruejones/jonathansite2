@@ -1,0 +1,24 @@
+.button {
+  background-color: #ac3b61;
+  color: white;
+  border: 0;
+  padding: 1em;
+  margin: 1em;
+}
+.button:hover {
+  background-color: #123c69;
+  color: white;
+}
+.li {
+  margin: 1em;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  min-height: 10em;
+  font-size: 0.75rem;
+  line-height: 2;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

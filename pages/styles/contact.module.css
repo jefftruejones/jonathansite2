@@ -1,0 +1,62 @@
+.form {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15em;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 1em;
+  margin: auto;
+}
+.h2 {
+  margin: 0;
+  padding: 1em;
+  background: rgb(238, 226, 220, 0.5);
+  text-align: center;
+}
+.h3 {
+  text-align: center;
+  color: inherit;
+  margin: auto;
+  padding-top: 1em;
+  margin-top: 1em;
+  max-width: 600px;
+}
+.button {
+  border: 0;
+  background-color: #eee2dc;
+}
+.button:hover {
+  background: rgba(149, 163, 218, 0.345);
+}
+.space {
+  margin-top: 1em;
+}
+.formelement {
+  margin-bottom: 0.15em;
+  background: rgb(238, 226, 220, 0.5);
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+  margin-top: 0.15em;
+}
+.text {
+  min-height: 350px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.center {
+  align-items: baseline;
+}
+
+.check {
+  padding-right: 1em;
+}
+.input {
+  border: 0;
+  padding-bottom: 0.25em;
+}
